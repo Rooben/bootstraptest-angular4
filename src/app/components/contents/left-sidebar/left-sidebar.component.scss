@@ -1,0 +1,62 @@
+@import "../../../../styles.scss";
+
+.card-header{
+  background-color: $app_gray_bg;
+  padding: 1rem 0.5rem 0.15rem !important;
+
+  h5{
+    color: $header_text_color;
+  }
+}
+
+.card{
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.solid-border{
+  border: solid 1px $border_gray_color;
+  border-radius: 7px;
+  margin: 5px 0;
+}
+
+.side-border-norm {
+  border-left: solid 12px $green_edge_color;
+}
+
+.functions-container{
+  position: relative;
+  .rounded-circle{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.prerequisite-tooltip{
+  border-left: none;
+  border-left: solid 12px red;
+  position: absolute;
+  top: 79px;
+  width: 95.5%;
+  z-index: 5;
+}
+
+.card-content{
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.rounded-circle-bottom {
+  width: 21px;
+  height: 21px;
+  line-height: 1.1;
+  @extend %rounded;
+  border: solid 1px $standard_black_color;
+}
+
+.plus-btn-background{
+  background-color: #27b7e8;
+}
+

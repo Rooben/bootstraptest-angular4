@@ -1,0 +1,8 @@
+@import "../../../../styles.scss";
+
+.plus-btn-background{
+  background-color: $plus_button_bg_color;
+}
+.plus-btn-background button{
+  cursor: pointer;
+}

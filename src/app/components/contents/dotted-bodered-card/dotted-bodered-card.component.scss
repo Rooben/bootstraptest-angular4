@@ -1,0 +1,7 @@
+@import "../../../../styles.scss";
+
+.dashed-border{
+  border: dashed 1px $border_gray_color;
+  border-radius: 7px;
+  margin: 10px 0;
+}

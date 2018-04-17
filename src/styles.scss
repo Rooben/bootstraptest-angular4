@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-v4-dev/dist/css/bootstrap.css";
+@import "styles/_normalize.scss";
+@import "styles/_global-styles.scss";
+@import "styles/_colors.scss";
+
+.functions-cotainer {
+  .rounded-circle {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+}
+
+%rounded{
+  display: inline-block;
+  padding-top: 1px !important;
+  text-align: center;
+  font-size: 14px;
+  transform: translate(4%, -6%);
+}
+
+.rounded-circle-top {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  @extend %rounded;
+}
+
+.rounded-circle-bottom {
+  width: 21px;
+  height: 21px;
+  line-height: 1.1;
+  @extend %rounded;
+  border: solid 1px $standard_black_color;
+}
+
+

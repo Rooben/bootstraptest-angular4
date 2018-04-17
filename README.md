@@ -1,3 +1,16 @@
+********* Setup *********** 
+1) Make sure you have angular-cli installed globally with the command: `npm install -g @angular/cli@1.5`
+2) Navigate to the root directory and then run the command npm install
+3) After "npm install" has finished downloading all it's modules, run `ng serve` and it should set up 
+  the web server, by default at port 4200.
+4) Open your favourite browser and type in the address: `localhost:4200` and that should display the site.
+
+*** NOTE: that this is just a quick demostration of an angular4 front-end architecture, once this is is setup, the
+rest is easy.
+
+
+
+
 # Real
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.4.
