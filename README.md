@@ -1,5 +1,5 @@
 ********* Setup *********** 
-1) Make sure you have angular-cli installed globally with the command: `npm install -g @angular/cli@1.5`
+1) Make sure you have angular-cli installed globally with the command: `npm install -g @angular/cli`
 2) Navigate to the root directory and then run the command npm install
 3) After "npm install" has finished downloading all it's modules, run `ng serve` and it should set up 
   the web server, by default at port 4200.
